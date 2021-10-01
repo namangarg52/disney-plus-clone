@@ -47,13 +47,14 @@ export default Header
 const Nav = styled.nav`
     height: 70px;
     background: #090b13;
-    display:flex;
+    display: flex;
     align-items: center;
     padding: 0 36px;
+    overflow-x: hidden;
 `
 
 const Logo = styled.img`
-    width:80px;
+    width: 80px;
     
 `
 
@@ -62,7 +63,7 @@ const NavMenu = styled.div`
     flex: 1;
     margin-left: 20px;
     align-items: center;
-
+    
     a{
         display: flex;
         align-items: center;
